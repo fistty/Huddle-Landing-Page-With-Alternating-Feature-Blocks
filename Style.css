@@ -1000,3 +1000,25 @@ address > a {
     text-align: right;
   }
 }
+
+.linear-wipe {
+  background: linear-gradient(
+    to right,
+    #af5ec3,
+    var(--Pink),
+    #af5ec3,
+    var(--Pink),
+    #af5ec3
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: to-right 1.5s linear infinite;
+}
+
+@keyframes to-right {
+  to {
+    background-position: 200% center;
+  }
+}
