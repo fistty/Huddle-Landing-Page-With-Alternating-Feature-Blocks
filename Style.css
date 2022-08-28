@@ -256,7 +256,7 @@ section > .image-container {
   box-shadow: #f7f7f7 0px 0rem 0rem 0.20625rem;
   position: absolute;
   bottom: 0%;
-  transform: translateY(18.925rem);
+  transform: translateY(18.725rem);
   z-index: 9;
   background-color: white;
   transition: all 200ms ease-out;
