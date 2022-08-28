@@ -23,12 +23,16 @@
 .attribution {
   text-align: center;
 }
+
 .attribution a {
   color: var(--Pink);
 }
 
+.attribution a:hover {
+  color: #fc79a5;
+}
+
 .attribution {
-  margin-top: 4rem;
   font-size: 1rem;
   text-align: center;
   line-height: 1.8;
@@ -304,6 +308,7 @@ footer {
   font-weight: 300;
   padding-left: 0.9375rem;
   padding-right: 1.25rem;
+  padding-bottom: 1rem;
 }
 
 footer *:focus-visible {
@@ -720,10 +725,6 @@ address > a {
     height: 3rem;
     border-bottom: 3px solid var(--Pink);
     font-size: 1.0625rem;
-  }
-
-  nav button:hover {
-    border-width: 0.3125rem;
   }
 
   /*============== LOGO ==============*/
