@@ -248,7 +248,7 @@ section > .image-container {
   width: clamp(22rem, 80%, 46rem);
   height: 11rem;
   display: flex;
-  gap: 1.5625rem;
+  gap: 26px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -256,7 +256,7 @@ section > .image-container {
   box-shadow: #f7f7f7 0px 0rem 0rem 0.20625rem;
   position: absolute;
   bottom: 0%;
-  transform: translateY(25.8625rem);
+  transform: translateY(18.925rem);
   z-index: 9;
   background-color: white;
   transition: all 200ms ease-out;
@@ -302,7 +302,7 @@ footer {
   border-top: 1px solid transparent;
   background-color: var(--Very-Dark-Cyan);
   color: white;
-  margin-top: 334px;
+  margin-top: 229px;
   font-family: var(--Open-Sans);
   font-style: normal;
   line-height: 1.4;
@@ -532,6 +532,7 @@ address > a {
 
   main {
     padding-inline: 2.25rem;
+    padding-top: 161px;
   }
 
   /*============== SECTION ==============*/
@@ -716,7 +717,7 @@ address > a {
     padding-inline: 5rem;
     max-width: 112.5rem;
     margin: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     margin-bottom: 4.0625rem;
   }
 
@@ -743,6 +744,7 @@ address > a {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     border-top: 1px solid transparent;
+    padding-bottom: unset;
   }
 
   /*============== FLEX WRAPPER ==============*/
@@ -800,6 +802,10 @@ address > a {
     max-width: 590px;
     max-height: 30.625rem;
     background-color: unset;
+  }
+
+  main {
+    padding-top: 161px;
   }
 
   /*============== SECTION ==============*/
@@ -888,6 +894,7 @@ address > a {
   .cta {
     width: 50rem;
     height: 17.5rem;
+    transform: translateY(28.325rem);
   }
 
   .cta > p {
